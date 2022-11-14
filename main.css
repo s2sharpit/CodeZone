@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background: url('img/image\ 80.png');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav h1 {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 31px;
+  top: 3px;
+  background: url('img/kingdom-logo.png');
+}
+
+nav div {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.bgImg {
+    background: url('img/image\ 76.png');
+    height: 900px;
+    background-size: cover;
+}
+
+.bgImg2 {
+    width: 100%;
+    top: 648px;
+    position: absolute;
+    background: url('img/Rectangle\ 479.png');
+    height: 900px;
+    background-size: cover;
+}
+
+.bgImg3 {
+    position: absolute;
+    top: 648px;
+    z-index: ;
+    width: 100%;
+    background: url('img/342963883\ copy\ 1.png');
+    height: 900px;
+    background-size: cover;
+}
+
+.bgImg4 {
+    position: absolute;
+    top: 1300px;
+    z-index: -1;
+    width: 100%;
+    background: url('img/image\ 83.png');
+    height: 900px;
+    background-size: cover;
+}
+
+.con1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 550px;
+    padding: 100px;
+    width: 400px;
+    gap: 40px;
+}
+
+figure {
+    width: 300px;
+    display: inline-block;
+}
+
+.con1 figure img {
+    width: 300px;
+}
+
+figcaption {
+    text-transform: uppercase;
+    text-align: justify;
+    color: white;
+}
+
+.con1 button {
+    border: none;
+    background: url('img/Rectangle\ 492.png');
+    background-repeat: no-repeat;
+    padding: 8px 50px;
+    width: fit-content;
+    color: white;
+}
+
+.con1 .wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.wrapper img {
+    width: 170px;
+}
+
+.con2 {
+    padding:100px 20px;
+    color: white;
+    width: 500px;
+}
+
+.con2 h1 {
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.con2 .wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.d1, .d2 {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.con2 img {
+    padding-top: 40px;
+}
